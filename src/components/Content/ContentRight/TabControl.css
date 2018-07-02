@@ -1,0 +1,58 @@
+.tab{
+    /*position: relative;*/
+    height: 300px;
+    width: 100%;
+    background-color: rgba(250,250,250,1);
+    /*color: rgb(200,200,200);*/
+    border-radius: 3px;
+    display: block;
+}
+/*tab选项卡*/
+.tab_title_wrap{
+    width: 300px;
+    height: 30px;
+    display: flex;
+}
+/*tab选项标题*/
+.tab_title{
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    background: #34b5e2;
+    box-shadow: 0 0 5px rgb(250,250,250);
+    font-size: 12px;
+    color: #fff;
+    overflow: hidden;
+}
+.tab_title:nth-child(1){
+    border-top-left-radius: 3px;
+}
+.tab_title:nth-last-child(1){
+    border-top-right-radius: 3px;
+}
+.tab_title .icon{
+    color: #faaa20;
+}
+.active{
+    color: #34b5e2;
+    background: rgba(250,250,250,1);
+}
+.active .icon{
+    /*color: #34b5e2;*/
+}
+/*选项卡内容框*/
+.tab_item_wrap{
+    /*height: 370px;*/
+
+}
+/*选项卡每个item内容*/
+.tab_item{
+    width: auto;
+    height: 100%;
+    /*text-align: center;*/
+    display: none;
+}
+.show{
+    display: block;
+}

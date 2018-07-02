@@ -1,0 +1,31 @@
+/*menu样式菜单开始*/
+.Menu {
+  position: relative;
+  height: 400px;
+  width: 100%;
+  border-radius: 3px;
+}
+
+/*!*menu样式菜单结束*!*/
+.closeMenu{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.barDoShow{
+  height: 300px;
+  width: 15px;
+  border-right: 2px solid #faaa20;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.screenImg{
+  width: 96%;
+  height: auto;
+  padding: 5px;
+}
+.titleName{
+  cursor: default;
+}
+

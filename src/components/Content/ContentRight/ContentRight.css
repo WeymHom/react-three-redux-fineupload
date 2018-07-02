@@ -1,0 +1,15 @@
+.contentRight{
+    position: absolute;
+    right: 0;
+    top: 64px;
+    bottom: 0;
+    width: 240px;
+    /*overflow: auto;*/
+    color: #34b5e2;
+    margin: 0;
+    /*-ms-overflow-style: none;*/
+}
+
+.contentRight::-webkit-scrollbar {
+    width: 1px;
+}

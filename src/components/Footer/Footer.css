@@ -1,0 +1,74 @@
+@charset "UTF-8";
+/* 底部导航栏隐藏样式*/
+.footer {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 84px;
+  bottom: 0;
+  overflow: hidden;
+}
+
+/* 底部导航栏显示样式*/
+.footerBar {
+  position: absolute;
+  right: 0;
+  left: 0;
+  height: 84px;
+  background-color: rgba(52,181,226, .5);
+  color: #f5f5f5;
+}
+
+/* 实现隐藏按钮的样式*/
+.closeBtn {
+  height: 30px;
+  width: 30px;
+  background: rgb(255,158,80);
+  position: absolute;
+  right: 5px;
+  line-height: 30px;
+  text-align: center;
+  font-size: 25px;
+  color: rgb(255,255,255);
+}
+.closeBtn:after {
+  content: "";
+  position: absolute;
+  top: 30px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-color: rgb(255,158,80) transparent transparent transparent;
+  border-width: 15px 15px 0 15px;
+}
+
+  /* 实现显示按钮样式*/
+.showBtn {
+  position: absolute;
+  right: 5px;
+  display: block;
+  top: 10px;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+}
+
+/* 显示图标动画样式*/
+.upIcon {
+  font-size: 20px;
+  color: rgba(200, 200, 200, 0.9);
+  animation: doShow 1.5s infinite linear;
+}
+
+@keyframes doShow {
+  0% {
+    transform: translate(0, 10px) scale(1);
+    opacity: 0; }
+  50% {
+    transform: translate(0, 0px) scale(1.1);
+    opacity: 1; }
+  100% {
+    transform: translate(0, -10px) scale(1.2);
+    opacity: 0; }
+}

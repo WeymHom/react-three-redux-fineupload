@@ -1,0 +1,87 @@
+[hidden] {
+    display: none !important;
+}
+
+.react-fine-uploader-nodrop-container,
+.fine-uploader-dropzone-container {
+    min-height: 310px;
+    overflow-y: hidden;
+    padding: 5px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.react-fine-uploader-dropzone-container-active  {
+    background: #FDFDFD;
+    border: 2px solid #00ABC7;
+}
+
+.react-fine-uploader-total-progress-bar-container {
+    background: #F2F2F2;
+    border-radius: 3px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2) inset;
+    position: absolute;
+    display: inline-block;
+    height: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 4px;
+    width: 70%;
+    z-index: 1;
+}
+.react-fine-uploader-total-progress-bar {
+    border-radius: 3px;
+    background: #00ABC7;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2) inset;
+    height: inherit;
+}
+
+.react-fine-uploader-filename {
+    position: relative;
+    display: block;
+    /*top: 30px;*/
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-align: center;
+}
+.react-fine-uploader-files{
+    background-color: #FFFFFF;
+    border-radius: 3px;
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.22);
+    display: inline-block;
+    font-size: 13px;
+    height: 70px;
+    line-height: 16px;
+    position: relative;
+    top: 44px;
+    vertical-align: top;
+    padding-top: 10px;
+    width: 150px;
+}
+.react-fine-uploader-status {
+    display: block;
+    margin-top: 5px;
+    text-align: center;
+    width: 100%;
+}
+
+.closeFineUpload{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border: none;
+    outline: none;
+    width: 75px;
+}
+.react-fine-uploader-retry-button {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    border: none;
+    outline: none;
+    width: 74px;
+}

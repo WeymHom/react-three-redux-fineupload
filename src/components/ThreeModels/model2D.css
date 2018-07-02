@@ -1,0 +1,42 @@
+
+/*!*modal框样式开始*!*/
+.modal {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    right: 40px;
+    bottom: 40px;
+    background-color: #ddd;
+    border-radius: 4px;
+    outline: none;
+    padding: 20px;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+}
+.modalCloseBtn{
+    position: absolute;
+    right: -30px;
+    top: -30px;
+    /*width: 30px;*/
+    /*height: 30px;*/
+    font-size: 30px;
+    /*border-radius:10px;*/
+    display: block;
+    background: rgba(0,0,0,0);
+    color: #34b5e2;
+    border: none;
+    outline: none;
+}
+/*modal框样式结束*/
+
+.svg_item{
+
+}
